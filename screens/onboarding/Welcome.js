@@ -73,7 +73,7 @@ export const S1_Welcome = ({ next, lang, setLang, theme, setFarmerProfile, setFa
                         onLongPress={() => {
                             Alert.prompt(
                                 "Configure Backend",
-                                "Enter Backend URL (e.g., https://your-link.loca.lt)",
+                                "Enter Backend URL (e.g., https://karsha.onrender.com)",
                                 [
                                     { text: "Cancel", style: "cancel" },
                                     {

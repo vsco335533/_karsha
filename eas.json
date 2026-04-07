@@ -9,7 +9,7 @@
                 "buildType": "apk"
             },
             "env": {
-                "EXPO_PUBLIC_BACKEND_URL": "https://karsha_.onrender.com"
+                "EXPO_PUBLIC_BACKEND_URL": "https://karsha.onrender.com"
             }
         },
         "production": {

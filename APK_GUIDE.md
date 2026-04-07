@@ -25,11 +25,10 @@ Android phones sometimes block apps that aren't from the Play Store. Here’s ho
 ### 3. 🌐 Connecting to the Brain (The Backend)
 For the app to see your crops, it needs to talk to the laptop running the backend. 
 
-**CRITICAL STEP (Do this once!):**
-Before you open the app for the first time, open your phone's **Chrome Browser** and type this URL:
-👉 `https://karsha-api-v1.loca.lt`
-- You will see a screen with a big button that says **"Click to Continue"**.
-- **Tap that button!** This "unlocks" the tunnel so the app can talk to the brain.
+**CRITICAL STEP:**
+Your app is already configured to talk to the backend on Render.
+👉 `https://karsha.onrender.com`
+- No extra "unlock" steps are needed!
 
 ### 4. 🚜 Using the App
 1. **Language**: Choose your favorite language (**Telugu**, **Hindi**, or **English**).
@@ -53,4 +52,5 @@ Monitor Status: eas build:list
 
 
 ---
-*Happy Farming! If you see a connection error, just remember to click that "Click to Continue" button in your browser one more time.* 🚀🌵
+---
+*Happy Farming! Your app is now powered by Render!* 🚀🌵
