@@ -1,0 +1,48 @@
+import { StyleSheet, Dimensions } from 'react-native';
+import { COLORS } from '../../theme';
+
+const { width: SCREEN_WIDTH } = Dimensions.get('window');
+
+export const styles = StyleSheet.create({
+    fullCenter: { flex: 1, backgroundColor: COLORS.warmWhite },
+    full: { flex: 1, backgroundColor: COLORS.warmWhite },
+    logo: { width: 220, height: 220, marginBottom: 10 },
+    subBrand: { fontSize: 14, fontWeight: '700', color: COLORS.forest, letterSpacing: 3, marginTop: 4 },
+    heroText: { fontSize: 13, color: COLORS.earth, textAlign: 'center', lineHeight: 20, marginTop: 16, maxWidth: 240 },
+    divider: { width: 50, height: 3, backgroundColor: COLORS.lime, borderRadius: 2, marginVertical: 24 },
+    langCard: { flex: 1, paddingVertical: 14, borderRadius: 16, backgroundColor: COLORS.cream, borderWidth: 2, borderColor: COLORS.lightGray + '40', alignItems: 'center' },
+    langCardActive: { backgroundColor: COLORS.paleGreen, borderColor: COLORS.forest + '60' },
+    langChar: { fontSize: 16, fontWeight: '800', color: COLORS.deepOlive },
+    langName: { fontSize: 10, fontWeight: '700', color: COLORS.warmGray, marginTop: 1 },
+    bottomPad: { padding: 24, paddingBottom: 32 },
+    hdrRow: { padding: 20, paddingTop: 10, alignItems: 'center', borderBottomWidth: 1, borderBottomColor: COLORS.lightGray + '30', position: 'relative' },
+    backBtnWrap: { position: 'absolute', left: 0, top: 0, width: 80, height: 40, justifyContent: 'center' },
+    backBtn: { fontSize: 13, fontWeight: '700', color: COLORS.forest, paddingLeft: 20 },
+    scrollContent: { padding: 24, paddingBottom: 60 },
+    avatar: { width: 80, height: 80, borderRadius: 40, backgroundColor: COLORS.paleGreen, borderWidth: 3, borderColor: COLORS.lime, alignSelf: 'center', alignItems: 'center', justifyContent: 'center', marginBottom: 30, elevation: 4, shadowColor: COLORS.forest, shadowOpacity: 0.1, shadowRadius: 10 },
+    grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 10 },
+    selCard: { backgroundColor: COLORS.white, borderRadius: 16, padding: 12, borderWidth: 1, borderColor: COLORS.lightGray + '60', flexDirection: 'row', alignItems: 'center', shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.05, shadowRadius: 3, elevation: 1 },
+    selCardActive: { backgroundColor: COLORS.paleGreen, borderColor: COLORS.forest + '60', borderWidth: 1.5 },
+    selText: { fontSize: 13, fontWeight: '700', color: COLORS.darkEarth },
+    rowWrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 10 },
+    pill: { paddingHorizontal: 16, paddingVertical: 10, borderRadius: 12, backgroundColor: COLORS.white, borderWidth: 1, borderColor: COLORS.lightGray + '40' },
+    pillActive: { backgroundColor: COLORS.paleGreen, borderColor: COLORS.forest + '80', borderWidth: 1.5 },
+    pillText: { fontSize: 13, fontWeight: '700', color: COLORS.warmGray },
+    summaryVal: { fontSize: 18, fontWeight: '800', color: COLORS.darkEarth, marginTop: 4 },
+    summarySub: { fontSize: 12, color: COLORS.warmGray, marginTop: 2 },
+    successBadge: { width: 90, height: 90, borderRadius: 45, backgroundColor: COLORS.forest, alignItems: 'center', justifyContent: 'center', elevation: 12, shadowColor: COLORS.forest, shadowOpacity: 0.4, shadowRadius: 20 },
+    drawOverlay: { position: 'absolute', top: 20, left: 20, right: 20, backgroundColor: 'rgba(0,0,0,0.6)', padding: 12, borderRadius: 12 },
+    areaBox: { position: 'absolute', bottom: 100, left: 24, backgroundColor: COLORS.white, padding: 12, borderRadius: 12, elevation: 6, shadowColor: '#000', shadowOpacity: 0.1, shadowRadius: 10 },
+    clearBtn: { position: 'absolute', bottom: 100, right: 24, backgroundColor: COLORS.red, paddingHorizontal: 16, paddingVertical: 10, borderRadius: 12 },
+    methodCard: { flexDirection: 'row', alignItems: 'center', backgroundColor: COLORS.cream, padding: 16, borderRadius: 16, marginBottom: 12, borderWidth: 1, borderColor: COLORS.lightGray + '30', gap: 16 },
+    methodIcon: { width: 50, height: 50, borderRadius: 25, alignItems: 'center', justifyContent: 'center' },
+    methodTitle: { fontSize: 15, fontWeight: '800', color: COLORS.darkEarth },
+    methodSub: { fontSize: 11, color: COLORS.warmGray, marginTop: 2 },
+    btmBar: { padding: 24, borderTopWidth: 1, borderTopColor: COLORS.lightGray + '20' },
+    coordRow: { flexDirection: 'row', alignItems: 'flex-end', gap: 12, marginBottom: 16 },
+    coordNumBadge: { width: 28, height: 28, borderRadius: 14, backgroundColor: COLORS.forest, alignItems: 'center', justifyContent: 'center', marginBottom: 10 },
+    coordLabel: { fontSize: 11, fontWeight: '800', color: COLORS.warmGray, marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5 },
+    removeBtn: { width: 32, height: 32, borderRadius: 16, backgroundColor: COLORS.red + '10', alignItems: 'center', justifyContent: 'center', marginBottom: 6 },
+    addCoordBtn: { alignSelf: 'center', paddingVertical: 12, paddingHorizontal: 24, borderRadius: 12, borderWidth: 1.5, borderColor: COLORS.forest + '30', borderStyle: 'dashed', marginTop: 8, backgroundColor: COLORS.cream + '30' },
+    mapCtrlBtn: { width: 44, height: 44, backgroundColor: 'white', borderRadius: 8, alignItems: 'center', justifyContent: 'center', elevation: 4 }
+});
