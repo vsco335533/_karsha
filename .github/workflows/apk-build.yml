@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 18.x
           cache: 'npm'
-          cache-dependency-path: karsha-native/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Setup EAS
         uses: expo/expo-github-action@v8
@@ -25,9 +25,7 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Install dependencies
-        working-directory: karsha-native
         run: npm install
 
       - name: Build APK
-        working-directory: karsha-native
         run: eas build --platform android --profile preview --non-interactive
