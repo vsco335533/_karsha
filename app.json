@@ -36,8 +36,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "82578946-43f3-40ea-94b0-0312654f6afe"
+        "projectId": "0d2e25ec-88b7-443e-95c6-be5c1e49cbab"
       }
-    }
+    },
+    "owner": "mskrishna23810"
   }
 }
