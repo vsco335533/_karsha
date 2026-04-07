@@ -1,4 +1,4 @@
-export let BACKEND_URL = process.env.EXPO_PUBLIC_BACKEND_URL || "https://karsha-api-v1.loca.lt";
+export let BACKEND_URL = process.env.EXPO_PUBLIC_BACKEND_URL || "https://karsha.onrender.com";
 
 export const setBackendUrl = (url) => {
     BACKEND_URL = url;
